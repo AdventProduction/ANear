@@ -1,0 +1,39 @@
+messages:
+  noPlayer: "&cКоманда доступна только от имени игрока!"
+  noPerm: "&cУ вас нет прав для использования"
+  empty: "&cИгроков поблизости не найдено!"
+  cooldown: "&cКоманда на перезарядке, подождите еще %time% сек."
+  reload: "&aПлагин перезагружен"
+
+directions:
+  right: "→"
+  left: "←"
+  down: "↓"
+  up: "↑"
+  left-up: "↖"
+  right-up: "↗"
+  left-down: "↙"
+  right-down: "↘"
+
+nears:
+  hide-invisible: true #Скрывать ли игроков, которые находятся в невидимости
+  first:
+    radius: 100
+    cooldown: 10
+    message:
+      - '&aИгроки в радиусе 100 блоков:'
+      - '&b%player% &a%direction% %distance% блоков'
+      - '&b%player% &a%direction% %distance% блоков'
+      - '&b%player% &a%direction% %distance% блоков'
+      - '&b%player% &a%direction% %distance% блоков'
+  second:
+    radius: 150
+    cooldown: 20
+    message:
+      - '&aИгроки в радиусе 150 блоков:'
+      - '&b%player% &a%direction% %distance% блоков'
+      - '&b%player% &a%direction% %distance% блоков'
+      - '&b%player% &a%direction% %distance% блоков'
+      - '&b%player% &a%direction% %distance% блоков'
+      - '&b%player% &a%direction% %distance% блоков'
+      - '&b%player% &a%direction% %distance% блоков'

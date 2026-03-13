@@ -1,0 +1,6 @@
+name: ANear
+version: '1.0-SNAPSHOT'
+main: kz.ifihtich.anear.ANear
+api-version: '1.16'
+commands:
+  near:
